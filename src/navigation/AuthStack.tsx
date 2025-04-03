@@ -23,12 +23,12 @@ const AuthStack = () => {
         component={IntroScreen} 
         options={{ headerShown: false }} 
       />
-      {/* <Stack.Screen 
+     <Stack.Screen 
         name={NAVIGATION.LOGIN} 
         component={Login} 
         options={{ headerShown: false }} 
       />
-      <Stack.Screen 
+       {/* <Stack.Screen 
         name={NAVIGATION.FORGET_PASSWORD} 
         component={ForgetPassword} 
         options={{ headerShown: false }} 
